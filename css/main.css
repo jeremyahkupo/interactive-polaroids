@@ -43,3 +43,10 @@ html {
   left: 39%;
   top: 100px;
 }
+
+.polaroid:hover {
+  transition: all 300ms linear;
+  transform: rotate(0deg);
+  z-index: 4;
+  box-shadow: 3px 3px 30px #000;
+}
