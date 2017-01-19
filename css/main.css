@@ -25,14 +25,21 @@ html {
 }
 
 .polaroid:nth-child(1) {
-  transform: translate(200px, 0) rotate(-10deg);
+  transform: rotate(-13deg);
+  left: 21%;
+  top: 100px;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
+  z-index: 2;
+  left: 30%;
+  top: 140px;
 }
 
 .polaroid:last-child {
-  transform: rotate(25deg);
-
+  transform: rotate(35deg);
+  z-index: 1;
+  left: 39%;
+  top: 100px;
 }
